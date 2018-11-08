@@ -44,6 +44,8 @@ int main() {
   people[Person("Mike", 30)] = 12;
   people[Person("Kate", 12)] = 42;
   people[Person("Mike", 444)] = 121;
+  people[Person("Anna", 18)] = 33;
+
 
   for (auto it = people.begin(); it != people.end(); it++) {
     cout <<  it->second << " " << flush;
